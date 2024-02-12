@@ -1,0 +1,8 @@
+transformers
+datasets
+accelerate
+evaluate
+scikit-learn
+jupyter
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch
