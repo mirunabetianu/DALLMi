@@ -9,7 +9,7 @@ from pytorch_multilabel_balanced_sampler import ClassCycleSampler
 from sklearn.model_selection import train_test_split, ParameterGrid
 from torch.utils.data import DataLoader
 from transformers import BertTokenizer, TrainingArguments, Trainer, EvalPrediction
-from MyBert import MyBert
+from helpers.MyBert import MyBert
 from preprocessing.domain_preprocessing import get_domain_before_tokenization, DATASETS, TASK, get_domain_content_column
 import json
 

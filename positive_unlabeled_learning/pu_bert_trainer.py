@@ -8,7 +8,7 @@ from sklearn.metrics import (accuracy_score, average_precision_score, f1_score,
 from sklearn.model_selection import train_test_split, ParameterGrid
 from torch.utils.data import DataLoader
 from transformers import BertTokenizer, TrainingArguments, Trainer, EvalPrediction
-from MyBert import MyBert
+from helpers.MyBert import MyBert
 from preprocessing.domain_preprocessing import get_domain_before_tokenization, DATASETS, TASK, get_domain_content_column
 import argparse
 from helpers import preprocess_delete_per_sample, preprocess_delete_per_label, preprocess_samples
