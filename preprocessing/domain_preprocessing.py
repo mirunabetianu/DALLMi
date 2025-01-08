@@ -29,7 +29,7 @@ def get_source_domain_path(dataset_type: DATASETS):
 
 
 def get_target_domain_path(dataset_type: DATASETS):
-    main_path = "/home/mbetianu/pu_bert/data/"
+    main_path = "pu_bert/data/"
     match dataset_type:
         case DATASETS.PUB_MED:
             return main_path + "pubmed_female.csv"
